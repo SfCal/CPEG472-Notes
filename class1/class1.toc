@@ -1,0 +1,18 @@
+\contentsline {chapter}{\numberline {1}Class 1: Hello Crypto}{3}{chapter.1}% 
+\contentsline {section}{\numberline {1.1}Hello Crypto (A Brute force reverse-hash)}{3}{section.1.1}% 
+\contentsline {subsection}{\numberline {1.1.1}Introduction}{3}{subsection.1.1.1}% 
+\contentsline {paragraph}{Overview:}{3}{section*.2}% 
+\contentsline {paragraph}{Peptalk:}{3}{section*.3}% 
+\contentsline {subsection}{\numberline {1.1.2}Kata: Hashing a dictionary word}{4}{subsection.1.1.2}% 
+\contentsline {paragraph}{Overview:}{4}{section*.4}% 
+\contentsline {subsection}{\numberline {1.1.3}Hash Functions}{5}{subsection.1.1.3}% 
+\contentsline {paragraph}{Overview:}{5}{section*.5}% 
+\contentsline {subsection}{\numberline {1.1.4}Fire up a workspace/CPU on Cloud9 or Code Anywhere}{6}{subsection.1.1.4}% 
+\contentsline {paragraph}{Overview:}{6}{section*.6}% 
+\contentsline {section}{\numberline {1.2}Kata: practice BASH}{10}{section.1.2}% 
+\contentsline {paragraph}{Overview:}{10}{section*.7}% 
+\contentsline {subsection}{\numberline {1.2.1}Kata: Reverse the hash of a dictionary word}{13}{subsection.1.2.1}% 
+\contentsline {section}{\numberline {1.3}What have you done?}{13}{section.1.3}% 
+\contentsline {paragraph}{Overview:}{13}{section*.8}% 
+\contentsline {subsection}{\numberline {1.3.1}Nothing protects against "pass1234"}{13}{subsection.1.3.1}% 
+\contentsline {subsection}{\numberline {1.3.2}Contemplation Task:}{14}{subsection.1.3.2}% 

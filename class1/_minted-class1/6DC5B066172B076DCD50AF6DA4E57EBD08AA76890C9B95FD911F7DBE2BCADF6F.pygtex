@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+    \PYG{n}{f}\PYG{o}{=}\PYG{n+nb}{file}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}dictionary.txt\PYGZsq{}}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}r\PYGZsq{}}\PYG{p}{)}
+    \PYG{n}{words} \PYG{o}{=} \PYG{p}{[}\PYG{n}{word}\PYG{o}{.}\PYG{n}{strip}\PYG{p}{()} \PYG{k}{for} \PYG{n}{word} \PYG{o+ow}{in} \PYG{n}{f}\PYG{p}{]}
+    \PYG{n}{f}\PYG{o}{.}\PYG{n}{close}\PYG{p}{()}
+\end{Verbatim}

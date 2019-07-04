@@ -1,0 +1,14 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+\PYG{k+kn}{import} \PYG{n+nn}{hashlib}\PYG{o}{,} \PYG{n+nn}{cProfile}
+
+\PYG{n}{f}\PYG{o}{=}\PYG{n+nb}{file}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}dictionary.txt\PYGZsq{}}\PYG{p}{,}\PYG{l+s+s1}{\PYGZsq{}r\PYGZsq{}}\PYG{p}{)}
+\PYG{n}{words} \PYG{o}{=} \PYG{p}{[}\PYG{n}{word}\PYG{o}{.}\PYG{n}{strip}\PYG{p}{()} \PYG{k}{for} \PYG{n}{word} \PYG{o+ow}{in} \PYG{n}{f}\PYG{p}{]}
+\PYG{n}{f}\PYG{o}{.}\PYG{n}{close}\PYG{p}{()}
+
+\PYG{n}{secretHash}\PYG{o}{=}\PYG{n}{hashlib}\PYG{o}{.}\PYG{n}{sha512}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}banana\PYGZdq{}}\PYG{p}{)}\PYG{o}{.}\PYG{n}{hexdigest}\PYG{p}{()}
+
+\PYG{k}{def} \PYG{n+nf}{checkDictionary}\PYG{p}{(}\PYG{n}{secret}\PYG{p}{):}
+    \PYG{k}{return} \PYG{p}{[}\PYG{n}{word} \PYG{k}{for} \PYG{n}{word} \PYG{o+ow}{in} \PYG{n}{words} \PYG{k}{if} \PYG{n}{hashlib}\PYG{o}{.}\PYG{n}{sha512}\PYG{p}{(}\PYG{n}{word}\PYG{p}{)}\PYG{o}{.}\PYG{n}{hexdigest}\PYG{p}{()} \PYG{o}{==} \PYG{n}{secret}\PYG{p}{]}
+
+\PYG{n}{cProfile}\PYG{o}{.}\PYG{n}{run}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}checkDictionary(secretHash)\PYGZsq{}}\PYG{p}{)}
+\end{Verbatim}
